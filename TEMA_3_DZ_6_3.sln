@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEMA_3_DZ_6_3", "TEMA_3_DZ_6_3\TEMA_3_DZ_6_3.csproj", "{08FC31FC-D5A5-4767-9A72-25AE283A6995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEMA_3_DZ_6_3_Library", "..\TEMA_3_DZ_6_3_Library\TEMA_3_DZ_6_3_Library\TEMA_3_DZ_6_3_Library.csproj", "{0652300B-EC18-4184-84F9-57BB94C1AF38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08FC31FC-D5A5-4767-9A72-25AE283A6995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FC31FC-D5A5-4767-9A72-25AE283A6995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FC31FC-D5A5-4767-9A72-25AE283A6995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FC31FC-D5A5-4767-9A72-25AE283A6995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0652300B-EC18-4184-84F9-57BB94C1AF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0652300B-EC18-4184-84F9-57BB94C1AF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0652300B-EC18-4184-84F9-57BB94C1AF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0652300B-EC18-4184-84F9-57BB94C1AF38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AC8EEB1-87A7-4D60-B673-DD2469984B91}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>"C:\Program Files\RevitAPITraining\TEMA_3_DZ_6_3.dll"</Assembly>
+		<AddInId>8B411329-6685-40DF-BD69-C321BFEC36E8</AddInId>
+		<FullClassName>TEMA_3_DZ_6_3.Main</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<Text>DZ_6_3_Расстановка элементов можду тчк.</Text>
+	</AddIn>
+</RevitAddIns>

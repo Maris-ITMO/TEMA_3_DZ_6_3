@@ -1,0 +1,25 @@
+﻿<Window x:Class="TEMA_3_DZ_6_3.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TEMA_3_DZ_6_3"
+             mc:Ignorable="d" 
+             Height="220" Width="310"
+             Title ="DZ_6_3_Расстановка элементов можду тчк.">
+    <StackPanel>
+        <Label Content="Выберите семейство"
+               Margin="5"/>
+        <ComboBox ItemsSource="{Binding FamilyTypes}"
+                  SelectedValue="{Binding SelectedFamilyType}"
+                  DisplayMemberPath="Name"
+                  Margin="5"/>
+        <Label Content="Укажите количество элементов, шт."
+               Margin="5"/>
+        <TextBox Text="{Binding ElementCount}"
+                 Margin="5"/>
+        <Button Content="Создать"
+                Command="{Binding SaveCommand}"
+                Margin="5"/>
+    </StackPanel>
+</Window>
